@@ -1,0 +1,21 @@
+{
+  "name": "jsonplaceholder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive --timeout 10000 test/tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai-json-schema": "^1.5.0",
+    "mocha": "^6.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
